@@ -31,3 +31,107 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+
+.menu li {
+display: inline-block;
+text-decoration: none;
+padding: 15px 25px;
+}
+
+.domu {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.menu ul {
+    margin: 0px;
+}
+
+.appka {
+    width: 100%;
+    background-image: url(images/pozadi.jpg);
+    padding: 30px;
+    height: 450px; 
+}
+
+.appka p {
+    color:white;
+    font-weight: 200;
+    font-size: 200%;
+    width: 400px;
+}
+
+.appka h1 {
+    color:white;
+    font-weight: 500;
+    font-size: 550%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.odkazy a {
+    border-radius: 10%;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    text-decoration: none;
+    margin:10px;
+    padding: 20px 40px;
+    position: relative; bottom: -30px; right:5px;
+}
+
+.tlacitko1 {
+background-color: rgb(90, 46, 146);
+/* vím že by se řešilo, přes a:hover, ale už jsem nemela čas si s tím pohrát */
+}
+
+.telefon{
+    position: absolute;
+    left:750px;
+    top: 104px;
+    width:300px;
+}
+
+.info img {
+    width: 20%;
+}
+
+.info {
+    width: 100%;
+    padding: 40px;
+    display:flex;
+    flex-direction: row;
+    flex-shrink: 1;
+    text-align: center;
+    align-items: flex-start;    
+}
+
+.chatuj {
+    padding-right:20px;
+    padding-left: 20px;
+    flex-basis: 320px;
+}
+
+.cestuj {
+    padding-right:20px;
+    padding-left: 20px;
+    flex-basis: 320px;
+}
+
+.dobrodruzstvi {
+    padding-right:20px;
+    padding-left: 20px;
+    flex-basis: 320px;
+}
+
+/* vím že by bylo možné položky výše (chatuj, cestuj, dobrodruzstvi napsat dohromady, 
+ale nějak mi to nefungovalo, tak jsem to raději rozepsala */
+
+.paticka {
+    background-color: #25133d;
+}
+
+.paticka p {
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
